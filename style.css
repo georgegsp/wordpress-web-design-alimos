@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+#hero {
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+#hero .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+  background-color: #0056b3;
+}
+
+#services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.service-card p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#cta {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#cta p {
+  font-size: 1.2rem;
+}
+
+#cta .btn {
+  background-color: white;
+  color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cta .btn:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #007bff;
+}
